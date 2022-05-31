@@ -7,3 +7,10 @@
       src: url('./assets/fonts/NotoSans-Regular.ttf') format('truetype');
     }
   }
+  @layer utilities {
+    .carousel-item {
+      @apply float-left relative block w-full;
+      margin-right: -100%;
+      backface-visibility: hidden ;
+    }
+  }
